@@ -77,7 +77,7 @@ This approach reduced overfitting and improved generalization.
 - Dense layer with 7 neurons and **softmax activation**
 
 ### ⚙️ Compilation:
-```python
+python
 optimizer = Adam(learning_rate=1e-3)
 loss = 'categorical_crossentropy'
 metrics = ['accuracy']
