@@ -19,6 +19,8 @@ The notebook performs **data exploration, visualization, feature engineering, an
 **File:** `academic Stress level - maintainance 1.csv`  
 **Number of entries:** 140  
 
+You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/ayeshaimran123/academic-stress-level-maintenance-dataset).  
+
 **Columns:**
 
 - `Timestamp` – Survey timestamp  
@@ -108,18 +110,6 @@ Models trained to predict students' stress levels:
 - Academic stress is influenced by **peer pressure, home environment, study environment, coping strategies, personal habits, and academic competition**.  
 - Data preprocessing and feature engineering significantly impact predictive performance.  
 - **AdaBoost** and **SVC** are the most promising models for predicting stress levels.  
-
----
-
-## 📌 Usage
-
-1. Load the dataset:
-    ```python
-    df = pd.read_csv("academic Stress level - maintainance 1.csv")
-    ```
-2. Perform preprocessing, visualization, and feature engineering.  
-3. Train models using `scikit-learn`.  
-4. Evaluate model performance with `accuracy_score`.  
 
 ---
 
